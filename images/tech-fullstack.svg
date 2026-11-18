@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-label="One product in four layers — interface, API, data and infrastructure — joined by a single spine">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3760"/><stop offset="1" stop-color="#0d1f38"/>
+    </linearGradient>
+    <linearGradient id="spine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f8fb"/><stop offset="1" stop-color="#3d8fc4"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="400" fill="url(#bg)"/>
+
+  <g fill="#f5f8fb">
+    <circle cx="40" cy="60" r="1.6" opacity=".6"/><circle cx="118" cy="30" r="1.2" opacity=".5"/>
+    <circle cx="520" cy="46" r="1.8" opacity=".5"/><circle cx="534" cy="300" r="1.4" opacity=".5"/>
+    <circle cx="36" cy="372" r="1.2" opacity=".4"/><circle cx="516" cy="372" r="1.4" opacity=".45"/>
+  </g>
+
+  <!-- one slab, four layers: depth behind -->
+  <rect x="152" y="62" width="340" height="300" rx="18" fill="#a9d2ec" opacity=".16"/>
+  <rect x="146" y="56" width="340" height="300" rx="18" fill="#f5f8fb"/>
+
+  <!-- single spine -->
+  <path d="M104 78V334" stroke="url(#spine)" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <g stroke="#a9d2ec" stroke-width="2.2" stroke-opacity=".8" fill="none">
+    <path d="M104 93H146M104 168H146M104 243H146M104 318H146"/>
+  </g>
+  <g fill="#0d1f38" stroke="#f5f8fb" stroke-width="3">
+    <circle cx="104" cy="93" r="7"/><circle cx="104" cy="168" r="7"/>
+    <circle cx="104" cy="243" r="7"/><circle cx="104" cy="318" r="7"/>
+  </g>
+
+  <!-- 01 interface -->
+  <rect x="170" y="70" width="136" height="48" rx="7" fill="#13294a"/>
+  <path d="M170 86H306" stroke="#a9d2ec" stroke-opacity=".3" stroke-width="1.4"/>
+  <g><circle cx="181" cy="78" r="2.6" fill="#a9d2ec"/><circle cx="191" cy="78" r="2.6" fill="#3d8fc4"/><circle cx="201" cy="78" r="2.6" fill="#f5f8fb"/></g>
+  <path d="M230 112L252 86L261 96L268 89L290 112Z" fill="#a9d2ec"/>
+  <path d="M247 92L252 86L261 96L268 89L273 94L268 92L261 101L252 90Z" fill="#f5f8fb"/>
+  <rect x="322" y="72" width="120" height="10" rx="5" fill="#13294a"/>
+  <rect x="322" y="90" width="84" height="8" rx="4" fill="#a9d2ec"/>
+  <rect x="322" y="106" width="48" height="14" rx="7" fill="#3d8fc4"/>
+  <circle cx="452" cy="77" r="9" fill="#dfe9f2" stroke="#c9d7e3" stroke-width="1.4"/>
+
+  <!-- 02 api -->
+  <g>
+    <rect x="170" y="142" width="36" height="15" rx="4" fill="#3d8fc4"/>
+    <rect x="214" y="146" width="124" height="8" rx="4" fill="#c9d7e3"/>
+    <rect x="170" y="162" width="36" height="15" rx="4" fill="#13294a"/>
+    <rect x="214" y="166" width="150" height="8" rx="4" fill="#c9d7e3"/>
+    <rect x="170" y="182" width="36" height="15" rx="4" fill="#a9d2ec"/>
+    <rect x="214" y="186" width="108" height="8" rx="4" fill="#c9d7e3"/>
+  </g>
+  <g fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M384 158H452M444 151L452 158L444 165" stroke="#3d8fc4"/>
+    <path d="M464 182H396M404 175L396 182L404 189" stroke="#a9d2ec"/>
+  </g>
+
+  <!-- 03 data -->
+  <rect x="174" y="224" width="76" height="36" fill="#3d8fc4"/>
+  <ellipse cx="212" cy="260" rx="38" ry="11" fill="#3d8fc4"/>
+  <g fill="none" stroke="#f5f8fb" stroke-opacity=".5" stroke-width="1.6">
+    <path d="M174 238A38 11 0 0 0 250 238M174 249A38 11 0 0 0 250 249"/>
+  </g>
+  <ellipse cx="212" cy="224" rx="38" ry="11" fill="#a9d2ec"/>
+  <rect x="296" y="216" width="168" height="56" rx="7" fill="#eef3f7" stroke="#c9d7e3" stroke-width="1.5"/>
+  <path d="M303 216H457A7 7 0 0 1 464 223V232H296V223A7 7 0 0 1 303 216Z" fill="#13294a"/>
+  <g fill="#a9d2ec" opacity=".6">
+    <rect x="306" y="221" width="30" height="5" rx="2.5"/><rect x="362" y="221" width="30" height="5" rx="2.5"/><rect x="418" y="221" width="30" height="5" rx="2.5"/>
+  </g>
+  <g stroke="#d7e1ea" stroke-width="1.3">
+    <path d="M352 232V272M408 232V272M296 252H464"/>
+  </g>
+  <g fill="#c9d7e3">
+    <rect x="306" y="239" width="36" height="6" rx="3"/><rect x="362" y="239" width="36" height="6" rx="3"/><rect x="418" y="239" width="36" height="6" rx="3"/>
+  </g>
+  <g fill="#a9d2ec">
+    <rect x="306" y="259" width="28" height="6" rx="3"/><rect x="362" y="259" width="36" height="6" rx="3"/><rect x="418" y="259" width="22" height="6" rx="3"/>
+  </g>
+
+  <!-- 04 infrastructure -->
+  <g fill="#13294a">
+    <rect x="170" y="292" width="126" height="16" rx="4"/><rect x="170" y="313" width="126" height="16" rx="4"/><rect x="170" y="334" width="126" height="16" rx="4"/>
+  </g>
+  <g fill="#a9d2ec">
+    <circle cx="181" cy="300" r="3.4"/><circle cx="181" cy="321" r="3.4" fill="#f5f8fb"/><circle cx="181" cy="342" r="3.4"/>
+  </g>
+  <g fill="#a9d2ec" opacity=".5">
+    <rect x="194" y="298" width="52" height="4" rx="2"/><rect x="194" y="319" width="40" height="4" rx="2"/><rect x="194" y="340" width="46" height="4" rx="2"/>
+  </g>
+  <rect x="306" y="294" width="84" height="50" rx="6" fill="#eef3f7" stroke="#c9d7e3" stroke-width="1.4"/>
+  <path d="M312 332L326 322L338 328L352 308L366 316L384 300" fill="none" stroke="#3d8fc4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="430" cy="318" r="20" fill="none" stroke="#3d8fc4" stroke-width="7" stroke-dasharray="6 6.3"/>
+  <circle cx="430" cy="318" r="11" fill="none" stroke="#3d8fc4" stroke-width="3.4"/>
+  <circle cx="430" cy="318" r="4" fill="#13294a"/>
+
+  <!-- layer seams: one piece, not patches -->
+  <g stroke="#d7e1ea" stroke-width="1.5">
+    <path d="M146 131H486M146 206H486M146 281H486"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M522 196l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#f5f8fb"/>
+  <path d="M60 196l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#a9d2ec"/>
+</svg>
